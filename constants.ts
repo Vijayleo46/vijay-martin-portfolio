@@ -9,7 +9,7 @@ export const CONTACT_INFO: ContactInfo = {
   github: "https://github.com/Vijayleo46",
 };
 
-export const ABOUT_ME = `I am a Software Developer with strong expertise in Python, Django, and Flutter. I recently completed a Flutter Developer internship at Spectrum Softtech Solutions, gaining hands-on experience in building end-to-end mobile applications. I thrive in collaborative environments, enjoy bringing innovative ideas to the table, and am committed to taking ownership of tasks to achieve ambitious goals. I am passionate about problem-solving and building scalable systems.`;
+export const ABOUT_ME = `I am a Flutter Developer and Full-Stack Software Engineer with expertise in Dart, Flutter, Python, and modern web technologies. With hands-on experience from Spectrum Software Solutions, I specialize in building cross-platform mobile applications and scalable web solutions. I excel in collaborative environments, bringing innovative ideas to life while taking ownership of complex technical challenges. I am passionate about creating seamless user experiences across mobile and web platforms.`;
 
 const getLogo = (name: string) => `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${name}/${name}-original.svg`;
 
@@ -90,7 +90,7 @@ export const PROJECTS: Project[] = [
     title: "Restaurant Menu System",
     description: "Modern Online Menu & Cart System.",
     technologies: ["React", "Stripe Integration"],
-    image: "https://images.unsplash.com/photo-1550966871-3ed3c6227b3c?q=80&w=2070&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=2070&auto=format&fit=crop",
     features: [
       "Responsive digital menu with category filtering.",
       "Full cart functionality with total calculation and checkout UI.",
@@ -110,7 +110,7 @@ export const PROJECTS: Project[] = [
     title: "VitalMed",
     description: "Medical Equipment E-Commerce.",
     technologies: ["Python", "Django"],
-    image: "https://images.unsplash.com/photo-1583912267670-652149e72c7e?q=80&w=1974&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1631217868264-e5b90bb7e133?q=80&w=2091&auto=format&fit=crop",
     features: [
       "Role-based system for Admin, Shops, and Users.",
       "Secure shop registration and product management.",
@@ -118,12 +118,13 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "AgriNova",
-    description: "Cross-platform Agricultural Marketplace.",
-    technologies: ["Flutter", "Python"],
+    description: "Cross-platform Agricultural Marketplace built with Flutter & Dart.",
+    technologies: ["Flutter", "Dart", "Firebase"],
     image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?q=80&w=2070&auto=format&fit=crop",
     features: [
+      "Native performance on both iOS and Android using Flutter framework.",
+      "Real-time data synchronization with Firebase backend.",
       "Integrated secure payments, order tracking, and delivery management.",
-      "Admin dashboard for managing users, farmers, and reports.",
     ],
   },
   {
@@ -140,7 +141,7 @@ export const PROJECTS: Project[] = [
 
 export const EXPERIENCE: Experience[] = [
   {
-    role: "AI Software Developer",
+    role: "AI Software Developer Intern",
     company: "AIXE Labs Private Limited",
     period: "Oct 2025 - Present",
     details: [
@@ -159,7 +160,7 @@ export const EXPERIENCE: Experience[] = [
     ],
   },
   {
-    role: "Flutter Developer Advance",
+    role: "Flutter Developer Advance Intern",
     company: "Spectrum Software Solutions, Kochi",
     period: "July 2024 – Aug 2024",
     details: [

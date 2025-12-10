@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const Skills: React.FC = () => {
   return (
-    <section id="skills" className="py-32 bg-slate-950 relative">
+    <section id="skills" className="py-32 bg-black relative">
       <div className="container mx-auto px-6">
         <div className="text-center mb-24">
             <motion.h2 
@@ -26,9 +26,9 @@ const Skills: React.FC = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="bg-slate-900/40 backdrop-blur-md border border-slate-800 rounded-3xl p-8 hover:border-slate-700 transition-colors"
+                className="bg-dark-200/50 backdrop-blur-md border border-dark-100 rounded-3xl p-8 hover:border-dark-100/70 transition-colors"
             >
-                <h3 className="text-xl font-bold text-slate-200 mb-8 border-b border-slate-800 pb-4">
+                <h3 className="text-xl font-bold text-gray-200 mb-8 border-b border-dark-100 pb-4">
                     {category.name}
                 </h3>
                 <div className="grid grid-cols-3 sm:grid-cols-4 gap-6">
@@ -40,7 +40,7 @@ const Skills: React.FC = () => {
                             whileTap={{ rotate: 360, scale: 1.2 }}
                             transition={{ type: "spring", stiffness: 300 }}
                         >
-                            <div className="w-16 h-16 bg-slate-800 rounded-2xl flex items-center justify-center border border-slate-700 group-hover:border-indigo-500 group-hover:shadow-[0_0_15px_rgba(99,102,241,0.3)] transition-all duration-300">
+                            <div className="w-16 h-16 bg-dark-300 rounded-2xl flex items-center justify-center border border-dark-100 group-hover:border-purple-500 group-hover:shadow-[0_0_15px_rgba(79,70,229,0.3)] transition-all duration-300">
                                 <img src={skill.logo} alt={skill.name} className="w-8 h-8 object-contain" />
                             </div>
                             <span className="text-xs font-semibold text-slate-500 group-hover:text-white transition-colors">

@@ -31,7 +31,7 @@ const Navbar: React.FC = () => {
       >
         <div className={`
             flex items-center justify-between px-6 py-3 rounded-full 
-            ${isScrolled ? 'bg-slate-900/80 backdrop-blur-xl border border-slate-800 shadow-2xl w-full max-w-5xl' : 'bg-transparent w-full max-w-7xl'}
+            ${isScrolled ? 'bg-dark-200/90 backdrop-blur-xl border border-dark-100 shadow-2xl w-full max-w-5xl' : 'bg-transparent w-full max-w-7xl'}
             transition-all duration-500
         `}>
             {/* Logo */}
@@ -40,7 +40,7 @@ const Navbar: React.FC = () => {
             </a>
 
             {/* Desktop Nav */}
-            <div className="hidden md:flex items-center gap-1 bg-slate-800/50 rounded-full px-2 py-1 border border-white/5 backdrop-blur-md">
+            <div className="hidden md:flex items-center gap-1 bg-dark-300/60 rounded-full px-2 py-1 border border-white/5 backdrop-blur-md">
                 {navLinks.map((link) => (
                     <a 
                         key={link.name} 
@@ -77,7 +77,7 @@ const Navbar: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="fixed inset-0 bg-slate-950/95 backdrop-blur-xl z-40 flex items-center justify-center md:hidden"
+            className="fixed inset-0 bg-black/95 backdrop-blur-xl z-40 flex items-center justify-center md:hidden"
           >
             <div className="flex flex-col gap-8 text-center">
               {navLinks.map((link) => (
